@@ -1,0 +1,21 @@
+{
+  "name": "client-and-server-handlebars",
+  "version": "1.0.0",
+  "description": "Example repo for handlebars",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack && node app.js",
+    "build": "webpack",
+    "watch": "webpack -w"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^3.1.0",
+    "handlebars-loader": "^1.7.1",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10"
+  }
+}
